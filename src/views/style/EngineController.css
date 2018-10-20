@@ -1,0 +1,15 @@
+.engine_controller {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 10vw 1fr;
+    grid-template-columns: 1fr calc(1.5 * var(--width));
+    font-size: 2vw;
+    background-color: #414145;
+}
+
+.engine_controller * {
+    margin: auto;
+    vertical-align: middle;
+}

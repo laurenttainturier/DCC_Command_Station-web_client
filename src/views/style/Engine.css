@@ -1,0 +1,50 @@
+.engine {
+    width: 80%;
+    margin: 1vw auto;
+    display: grid;
+    grid-template-rows: 2.5vw 1fr;
+    padding: 0.5vw;
+    border-radius: 0.6vw;
+    font-size: 2vw;
+    color: #7b7d7f;
+    border: 0.3vw solid #7b7d7f;
+    background-color: #353336;
+    opacity: 0.8;
+}
+
+.engine:hover {
+    /*width: 82%;
+    height: 87%;
+    font-size: 2.1vw;*/
+    color: white;
+    border: 0.3vw solid white;
+    cursor: pointer;
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.engine img {
+    margin: 0.5vw auto;
+    width: 95%;
+    border-radius: 0.5vw;
+    vertical-align: middle;
+    background-color: #3a383b;
+}
+
+.engine img:hover {
+
+}
+
+.is-active {
+    color: #008b0d;
+    border: 0.3vw solid #008b0d;
+    opacity: 1;
+}
+
+.is-active:hover {
+    color: #008b0d;
+    font-size: 2vw;
+    border: 0.3vw solid #008b0d;
+    cursor: auto;
+    opacity: 1;
+}
